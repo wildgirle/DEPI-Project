@@ -1,0 +1,19 @@
+<suite name="login test cases">
+    <test name="testngTest">
+        <classes>
+            <class name ="tests.t3_contactUs">
+                <methods>
+                    <include name="contactUsWithData"/>
+                </methods>
+            </class>
+            class name ="tests.t5_productPage">
+            <methods>
+                <include name="firstProductPage"/>
+            </methods>
+            <methods>
+                <include name="searchProduct"/>
+            </methods>
+        </classes>
+
+    </test>
+</suite>
